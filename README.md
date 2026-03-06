@@ -1,16 +1,22 @@
-## Hi there 👋
+### Hi, I'm JiangNan
 
-<!--
-**jnMetaCode/jnMetaCode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-stack developer focused on **AI infrastructure** and **open-source contributions**.
 
-Here are some ideas to get you started:
+#### Open Source
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Active contributor to [OpenClaw](https://github.com/openclaw/openclaw) (260k+ stars) — the open-source AI assistant platform.
+
+Contributed PRs in:
+- **Error classification** — narrowing false-positive failover triggers
+- **Daemon reliability** — fixing systemd availability checks on degraded Linux systems
+- **Ollama integration** — correcting native API field mapping for thinking models
+- **CI/Automation** — labeler config fixes and cleanup
+
+#### Projects
+
+- [awesome-ai-aigc-chinese](https://github.com/jnMetaCode/awesome-ai-aigc-chinese) — Curated AI/AIGC resource list (Chinese)
+- [available-domains](https://github.com/jnMetaCode/available-domains) — Batch domain availability checker with DNS + API validation
+
+#### Tech Stack
+
+`TypeScript` `Python` `Node.js` `Linux/systemd` `AI/LLM` `Vitest` `GitHub Actions`
