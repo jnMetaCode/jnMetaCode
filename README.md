@@ -12,6 +12,18 @@ Contributed PRs in:
 - **Ollama integration** — correcting native API field mapping for thinking models
 - **CI/Automation** — labeler config fixes and cleanup
 
+#### 🛠️ The local agent toolkit (new)
+
+Local-first, MCP-native tools for AI agents — zero dependencies, nothing leaves your machine:
+
+| | | try it |
+| --- | --- | --- |
+| 🧠 [**engram**](https://github.com/jnMetaCode/engram) | local, private memory — cited recall with a sense of time | `npx @jnmetacode/engram ingest ~/notes` |
+| 🍳 [**skillet**](https://github.com/jnMetaCode/skillet) | npm for agent skills — SHA-pinned, Git-backed registry ([browse](https://jnmetacode.github.io/skillet/)) | `npx @jnmetacode/skillet add pdf` |
+| 🔭 [**tracelet**](https://github.com/jnMetaCode/tracelet) | local DevTools for agents — live OTLP traces, prompts & tokens | `npx @jnmetacode/tracelet` |
+
+One agent run using all three → the [end-to-end recipe](https://github.com/jnMetaCode/local-agent-toolkit). Inside Claude Code: `/plugin marketplace add jnMetaCode/local-agent-toolkit`
+
 #### Projects
 
 - [awesome-ai-aigc-chinese](https://github.com/jnMetaCode/awesome-ai-aigc-chinese) — Curated AI/AIGC resource list (Chinese)
