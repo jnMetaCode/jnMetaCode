@@ -53,7 +53,7 @@
 
 有三个发现值得单独说：BM25 基线 hit@5 91.7% 看着够用，但 **miss 全是跨语言**——这才是换 bge-m3 的理由；
 混合检索 RRF 在这个语料上**反而拖低 hit@1**，所以我把它关了；拒答阈值不是拍的，是跑分数分布校准出来的。
-> 三条结论的完整数据、复现命令和踩坑记录，都在 [repo-rag 的 README](https://github.com/jnMetaCode/repo-rag#实测结果2026-08-21--30-条-gold-集--全本地免-key-栈) 里。
+> 三条结论的完整数据、复现命令和踩坑记录都在 [repo-rag](https://github.com/jnMetaCode/repo-rag) 里（指标就在 README 首屏）。
 
 ---
 
