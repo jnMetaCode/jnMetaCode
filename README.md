@@ -41,6 +41,32 @@
 
 [OpenClaw](https://github.com/openclaw/openclaw)（260k+ ⭐）—— 错误分类、守护进程可靠性、Ollama 集成等多个 PR。
 
+#### 🧪 AI 应用工程（2026.08 新开源）
+
+> 三套**评估驱动**的 AI 应用系统。不是 demo：每个技术决策都由自建评估集的实测数据推导，指标与复现命令都在 README 里。
+
+| 项目 | 做什么 | 实测 |
+|---|---|---|
+| [repo-rag](https://github.com/jnMetaCode/repo-rag) | 中文知识库 RAG：结构分块 + 混合检索 + **两层拒答** + 引用溯源 | hit@1 **95.8%** · faithfulness **0.981** · 拒答 6/6 |
+| [orchestrator-lg](https://github.com/jnMetaCode/orchestrator-lg) | 把 agency-orchestrator 引擎重写为 **LangGraph**：checkpoint 断点续跑 + 可持久化审批中断 | 7/7 测试 · YAML 零改动兼容 |
+| [llm-gateway](https://github.com/jnMetaCode/llm-gateway) | 多模型网关：SSE 流式取消链 + **三态熔断**（按 provider 隔离）+ token 计费 | 10/10 测试 · Docker |
+
+有三个发现值得单独说：BM25 基线 hit@5 91.7% 看着够用，但 **miss 全是跨语言**——这才是换 bge-m3 的理由；
+混合检索 RRF 在这个语料上**反而拖低 hit@1**，所以我把它关了；拒答阈值不是拍的，是跑分数分布校准出来的。
+> 完整过程写在这里：*《混合检索让我的 RAG 变差了：30 条测试集告诉我的三件事》*（公众号 **AI不止语**）
+
+---
+
+#### 👋 Open to Work · 北京
+
+**正在看北京的机会：AI 技术负责人 / 交付负责人 / 技术合伙人**（也看 DevRel 与开发者生态）。
+
+11 年 IT、8 年技术团队管理，做过技术总监，主导过 700 万/月量级平台的技术落地；
+这两年专注大模型应用工程，产出就是上面那三个项目 + 一份完整的企业级私有化部署方案。
+**能覆盖从需求评估、技术选型到交付的全链路。**
+
+聊聊 → **jnMetaCode@qq.com**
+
 ---
 
 <sub>💼 合作 / 赞助：**jnMetaCode@qq.com** ｜ `TypeScript` · `Python` · `Node.js` · `AI / LLM` · `MCP`</sub>
