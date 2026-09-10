@@ -56,14 +56,30 @@
 > 最反直觉的一条：混合检索 RRF 在这个语料上**反而拖低了 hit@1**，所以我把它关了；BM25 基线看着够用，但 miss **全是跨语言**——这才是换 bge-m3 的真正理由。
 > 完整数据、复现命令和踩坑记录都在 [repo-rag](https://github.com/jnMetaCode/repo-rag)。
 
-#### 📖 教程 · 课程 · 创作
+#### 📖 教程 · 创作
 
 | | |
 |---|---|
 | [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) | AI 编程实战指南：66 个 Claude Code 技巧 + 10 款工具最佳实践 |
 | [ai-coding-trilogy](https://github.com/jnMetaCode/ai-coding-trilogy) | AI 编程三卷书（入门 / 工作流 / 架构，中英双语 PDF） |
 | [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | AI 短片《丧尸清道夫》方法论 + 提示词（Sora / 可灵 / 即梦通用） |
-| [aiOlaOla 免费课程](https://aiolaola.com/?utm_source=github&utm_campaign=profile) | **三门免费实操课**：从零学会 AI 编程（180 节）＋ 从零构建 AI 智能体（40 节）＋ AI 专家团队实战（33 节）<br/>[English](https://aiolaola.com/en?utm_source=github&utm_campaign=profile) / [日本語](https://aiolaola.com/ja?utm_source=github&utm_campaign=profile) / [Español](https://aiolaola.com/es?utm_source=github&utm_campaign=profile) / [한국어](https://aiolaola.com/ko?utm_source=github&utm_campaign=profile) / [繁體](https://aiolaola.com/zh-Hant?utm_source=github&utm_campaign=profile) 六语可选 |
+
+#### 🎓 免费课程 · [aiOlaOla](https://aiolaola.com/?utm_source=github&utm_campaign=profile)
+
+**13 门实操课、648 节，全部 ¥0，登录即学。**
+
+| 课程 | 节数 | 讲什么 |
+|---|:--:|---|
+| [从零学会 AI 编程](https://aiolaola.com/?utm_source=github&utm_campaign=profile) | 182 | 主线课：从不会写代码到能用 AI 交付项目 |
+| [从零构建 AI 智能体](https://aiolaola.com/course/ai-agent?utm_source=github&utm_campaign=profile) | 40 | Agent 从原理到落地 |
+| [AI 应用开发·专业版](https://aiolaola.com/course/ai-app-pro?utm_source=github&utm_campaign=profile) | 54 | 把大模型做成能上线的产品 |
+| [AI 专家团队实战](https://aiolaola.com/course/ai-agency?utm_source=github&utm_campaign=profile) | 35 | 把 agency-agents-zh 的 277 位专家用成一支团队 |
+| [AI 内容流水线](https://aiolaola.com/course/ai-pipeline?utm_source=github&utm_campaign=profile) | 31 | 用 AO 产线真实生产两门课的全过程留档，含七类翻车现场 |
+| [AI 量化实战·专业版](https://aiolaola.com/course/ai-quant-pro?utm_source=github&utm_campaign=profile) | 65 | 量化从策略到实盘 |
+
+其余 7 门：[AI 绘画从 0 到能用](https://aiolaola.com/course/ai-art?utm_source=github&utm_campaign=profile)（46）· [深度专注](https://aiolaola.com/course/deep-focus?utm_source=github&utm_campaign=profile)（48）· [用 AI 写小说](https://aiolaola.com/course/ai-novel?utm_source=github&utm_campaign=profile)（42）· [AI 漫剧实战](https://aiolaola.com/course/ai-comic-drama?utm_source=github&utm_campaign=profile)（42）· [看懂 AI 量化](https://aiolaola.com/course/ai-quant?utm_source=github&utm_campaign=profile)（26）· [DeepSeek 快上手](https://aiolaola.com/course/deepseek?utm_source=github&utm_campaign=profile)（22）· [国内怎么用 AI 编程](https://aiolaola.com/course/ai-cn-tools?utm_source=github&utm_campaign=profile)（15）
+
+<sub>两门「专业版」定价同样是 ¥0，前几节免登录试看，其余章节需邀请 1 位朋友解锁 · 🌍 [English](https://aiolaola.com/en?utm_source=github&utm_campaign=profile) / [日本語](https://aiolaola.com/ja?utm_source=github&utm_campaign=profile) / [Español](https://aiolaola.com/es?utm_source=github&utm_campaign=profile) / [한국어](https://aiolaola.com/ko?utm_source=github&utm_campaign=profile) / [繁體中文](https://aiolaola.com/zh-Hant?utm_source=github&utm_campaign=profile) 六语可选</sub>
 
 #### 🌍 也在贡献
 
