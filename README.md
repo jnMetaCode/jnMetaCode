@@ -16,6 +16,7 @@
 |------|------------|---|
 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | **277 个即插即用的 AI 专家**：产品 / 架构 / 营销 / 小红书 / 抖音运营，拿来就用 | [![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/agency-agents-zh) |
 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 教 AI **怎么把活干好**：TDD、调试、代码审查等 20 个工作方法，装上就生效 | [![](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/superpowers-zh) |
+| [impeccable-zh](https://github.com/jnMetaCode/impeccable-zh) | **Impeccable 中文增强版**：中文排版、UX 文案与国内 UI 框架指导，提供简繁体内容与设计工作流；当前 Alpha，从源码安装 | [![Stars](https://img.shields.io/github/stars/jnMetaCode/impeccable-zh?style=flat&label=Stars)](https://github.com/jnMetaCode/impeccable-zh/stargazers) |
 | [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | **一句话 → 多个 AI 专家自动接力**，几分钟出完整方案（15 种大模型，11 种免 key） | [![](https://img.shields.io/github/stars/jnMetaCode/agency-orchestrator?style=flat&label=⭐)](https://github.com/jnMetaCode/agency-orchestrator) |
 | [shellward](https://github.com/jnMetaCode/shellward) | AI 项目**合规体检**：数据出境 / 硬编码密钥 / 个人信息暴露，一行命令扫出来 | [![](https://img.shields.io/github/stars/jnMetaCode/shellward?style=flat&label=⭐)](https://github.com/jnMetaCode/shellward) |
 
@@ -30,39 +31,19 @@
 
 <sub>👆 开片跑出来的《为什么切洋葱会流眼泪》—— **0 元、0 个付费 key**，6 镜里 2 镜是素材库没货时本机现画的</sub>
 
-#### 🛠️ local-agent-toolkit · 本地三件套
+#### 🛠️ 本地 Agent 工具箱
 
-> agent 最缺的三样东西，各做一个小工具。**单独用也行，一起用更强。**
-> 都是 `npx` 一条命令就跑，不在你电脑里装一堆东西；想全装，Claude Code 里一条命令搞定。
+[**local-agent-toolkit**](https://github.com/jnMetaCode/local-agent-toolkit)：给 Agent 加上本地记忆 **engram**、技能管理 **skillet** 和运行追踪 **tracelet**。三个工具可独立使用，也提供组合演示；支持通过 `npx` 运行，无需手动全局安装。
 
-| 工具 | 解决什么问题 | 单独试一下 |
-|---|---|---|
-| 🧠 [engram](https://github.com/jnMetaCode/engram) | **记忆**：让 AI 记住你的笔记和决定，带出处回答，而且越用越准 | `npx @jnmetacode/engram ingest ~/notes` |
-| 🍳 [skillet](https://github.com/jnMetaCode/skillet) | **技能**：像 npm 一样给 agent 装技能，一条命令（[在线技能库](https://jnmetacode.github.io/skillet/)） | `npx @jnmetacode/skillet add pdf` |
-| 🔭 [tracelet](https://github.com/jnMetaCode/tracelet) | **眼睛**：实时看 AI 每步干了啥、花了多少钱，像浏览器的 Network 面板 | `npx @jnmetacode/tracelet` |
-
-> 想一次全装（在 Claude Code 里）：`/plugin marketplace add jnMetaCode/local-agent-toolkit`
-
-#### 🧪 评估驱动的 AI 应用工程
-
-> 三套**用数据说话**的 AI 应用系统。不是 demo：每个技术决策都由自建评估集的实测推导，指标与复现命令都写在 README 首屏。
-
-| 项目 | 做什么 | 实测 |
-|---|---|---|
-| [repo-rag](https://github.com/jnMetaCode/repo-rag) | 中文知识库 RAG：结构分块 + 混合检索 + **两层拒答** + 引用溯源 | hit@1 **95.8%** · faithfulness **0.981** · 拒答 6/6 |
-| [orchestrator-lg](https://github.com/jnMetaCode/orchestrator-lg) | 把 agency-orchestrator 引擎重写为 **LangGraph**：checkpoint 断点续跑 + 可持久化审批中断 | 7/7 测试 · YAML 零改动兼容 |
-| [llm-gateway](https://github.com/jnMetaCode/llm-gateway) | 多模型网关：SSE 流式取消链 + **三态熔断**（按 provider 隔离）+ token 计费 | 10/10 测试 · Docker |
-
-> 最反直觉的一条：混合检索 RRF 在这个语料上**反而拖低了 hit@1**，所以我把它关了；BM25 基线看着够用，但 miss **全是跨语言**——这才是换 bge-m3 的真正理由。
-> 完整数据、复现命令和踩坑记录都在 [repo-rag](https://github.com/jnMetaCode/repo-rag)。
+Claude Code 用户按[套件安装说明](https://github.com/jnMetaCode/local-agent-toolkit#install-as-a-claude-code-plugin-one-command)添加市场并安装插件。追踪面板需要另行启动 tracelet，并接入 tracing。
 
 #### 📖 教程 · 创作
 
 | | |
 |---|---|
-| [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) | AI 编程实战指南：66 个 Claude Code 技巧 + 10 款工具最佳实践 |
-| [ai-coding-trilogy](https://github.com/jnMetaCode/ai-coding-trilogy) | AI 编程三卷书（入门 / 工作流 / 架构，中英双语 PDF） |
-| [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | AI 短片《丧尸清道夫》方法论 + 提示词（Sora / 可灵 / 即梦通用） |
+| [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) | AI 编程实战指南：66 个 Claude Code 技巧 + 10 款工具最佳实践  [![Stars](https://img.shields.io/github/stars/jnMetaCode/ai-coding-guide?style=flat&label=Stars)](https://github.com/jnMetaCode/ai-coding-guide/stargazers) |
+| [ai-coding-trilogy](https://github.com/jnMetaCode/ai-coding-trilogy) | AI 编程三卷书（入门 / 工作流 / 架构，中英双语 PDF）  [![Stars](https://img.shields.io/github/stars/jnMetaCode/ai-coding-trilogy?style=flat&label=Stars)](https://github.com/jnMetaCode/ai-coding-trilogy/stargazers) |
+| [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | AI 短片《丧尸清道夫》方法论 + 提示词（Sora / 可灵 / 即梦通用）  [![Stars](https://img.shields.io/github/stars/jnMetaCode/ai-shortfilm-prompts?style=flat&label=Stars)](https://github.com/jnMetaCode/ai-shortfilm-prompts/stargazers) |
 
 #### 🎓 免费课程 · [aiOlaOla](https://aiolaola.com/?utm_source=github&utm_campaign=profile)
 
@@ -88,3 +69,5 @@
 ---
 
 <sub>💼 合作 / 赞助：**jnMetaCode@qq.com** ｜ `TypeScript` · `Python` · `Node.js` · `AI / LLM` · `MCP`</sub>
+
+<!-- AI-assisted profile update -->
