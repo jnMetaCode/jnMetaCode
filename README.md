@@ -12,17 +12,17 @@
 
 给它**专家角色**、教它**工作方法**、帮你**一句话调度**、再加一层**合规兜底**。
 
-| 项目 | 它能帮你干嘛 | |
+| 项目 | 它能帮你干嘛 | Stars |
 |------|------------|---|
 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | **277 个即插即用的 AI 专家**：产品 / 架构 / 营销 / 小红书 / 抖音运营，拿来就用 | [![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/agency-agents-zh) |
 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 教 AI **怎么把活干好**：TDD、调试、代码审查等 20 个工作方法，装上就生效 | [![](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/superpowers-zh) |
-| [impeccable-zh](https://github.com/jnMetaCode/impeccable-zh) | **Impeccable 中文增强版**：中文排版、UX 文案与国内 UI 框架指导，提供简繁体内容与设计工作流；当前 Alpha，从源码安装 | [![Stars](https://img.shields.io/github/stars/jnMetaCode/impeccable-zh?style=flat&label=Stars)](https://github.com/jnMetaCode/impeccable-zh/stargazers) |
+| [impeccable-zh](https://github.com/jnMetaCode/impeccable-zh) | **Impeccable 中文增强版**：中文排版、UX 文案与国内 UI 框架指导，提供简繁体内容与设计工作流；当前 Alpha，从源码安装 | [![Star 数量](https://img.shields.io/github/stars/jnMetaCode/impeccable-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/impeccable-zh/stargazers) |
 | [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | **一句话 → 多个 AI 专家自动接力**，几分钟出完整方案（15 种大模型，11 种免 key） | [![](https://img.shields.io/github/stars/jnMetaCode/agency-orchestrator?style=flat&label=⭐)](https://github.com/jnMetaCode/agency-orchestrator) |
 | [shellward](https://github.com/jnMetaCode/shellward) | AI 项目**合规体检**：数据出境 / 硬编码密钥 / 个人信息暴露，一行命令扫出来 | [![](https://img.shields.io/github/stars/jnMetaCode/shellward?style=flat&label=⭐)](https://github.com/jnMetaCode/shellward) |
 
 #### 🆕 最近在做
 
-| 项目 | 它能帮你干嘛 | |
+| 项目 | 它能帮你干嘛 | Stars |
 |------|------------|---|
 | [openshorts · 开片](https://github.com/jnMetaCode/openshorts) | **文案进，成片出**：脚本 / 配音 / 字幕 / 成片 / 发布文案一条龙，**第一条 0 元、0 个付费 key** 跑通，全程本地 | [![](https://img.shields.io/github/stars/jnMetaCode/openshorts?style=flat&label=⭐)](https://github.com/jnMetaCode/openshorts) |
 | [codepet · 码宠](https://github.com/jnMetaCode/codepet) | 桌面养成桌宠：你写代码 / 用 Claude Code，它就涨经验、升级、换状态、跳舞。全本地、隐私优先 | [![](https://img.shields.io/github/stars/jnMetaCode/codepet?style=flat&label=⭐)](https://github.com/jnMetaCode/codepet) |
@@ -39,11 +39,11 @@ Claude Code 用户按[套件安装说明](https://github.com/jnMetaCode/local-ag
 
 #### 📖 教程 · 创作
 
-| | |
-|---|---|
-| [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) | AI 编程实战指南：66 个 Claude Code 技巧 + 10 款工具最佳实践  [![Stars](https://img.shields.io/github/stars/jnMetaCode/ai-coding-guide?style=flat&label=Stars)](https://github.com/jnMetaCode/ai-coding-guide/stargazers) |
-| [ai-coding-trilogy](https://github.com/jnMetaCode/ai-coding-trilogy) | AI 编程三卷书（入门 / 工作流 / 架构，中英双语 PDF）  [![Stars](https://img.shields.io/github/stars/jnMetaCode/ai-coding-trilogy?style=flat&label=Stars)](https://github.com/jnMetaCode/ai-coding-trilogy/stargazers) |
-| [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | AI 短片《丧尸清道夫》方法论 + 提示词（Sora / 可灵 / 即梦通用）  [![Stars](https://img.shields.io/github/stars/jnMetaCode/ai-shortfilm-prompts?style=flat&label=Stars)](https://github.com/jnMetaCode/ai-shortfilm-prompts/stargazers) |
+| 项目 | 内容 | Stars |
+|---|---|---|
+| [ai-coding-guide](https://github.com/jnMetaCode/ai-coding-guide) | AI 编程实战指南：66 个 Claude Code 技巧 + 10 款工具最佳实践 | [![Star 数量](https://img.shields.io/github/stars/jnMetaCode/ai-coding-guide?style=flat&label=⭐)](https://github.com/jnMetaCode/ai-coding-guide/stargazers) |
+| [ai-coding-trilogy](https://github.com/jnMetaCode/ai-coding-trilogy) | AI 编程三卷书（入门 / 工作流 / 架构，中英双语 PDF） | [![Star 数量](https://img.shields.io/github/stars/jnMetaCode/ai-coding-trilogy?style=flat&label=⭐)](https://github.com/jnMetaCode/ai-coding-trilogy/stargazers) |
+| [ai-shortfilm-prompts](https://github.com/jnMetaCode/ai-shortfilm-prompts) | AI 短片《丧尸清道夫》方法论 + 提示词（Sora / 可灵 / 即梦通用） | [![Star 数量](https://img.shields.io/github/stars/jnMetaCode/ai-shortfilm-prompts?style=flat&label=⭐)](https://github.com/jnMetaCode/ai-shortfilm-prompts/stargazers) |
 
 #### 🎓 免费课程 · [aiOlaOla](https://aiolaola.com/?utm_source=github&utm_campaign=profile)
 
