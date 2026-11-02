@@ -3,7 +3,7 @@
 做 AI 工具，也讲 AI 实战。
 公众号 / 抖音 / 视频号同名 **AI不止语**，X（Twitter）[@jnMetaCode](https://x.com/jnMetaCode) —— 聊 AI 编程、Agent、工具实战。
 
-[![开源项目累计](https://img.shields.io/badge/开源项目累计-⭐%2033k+-2b7489?style=flat-square)](https://github.com/jnMetaCode?tab=repositories&sort=stargazers)
+[![开源项目累计](https://img.shields.io/badge/开源项目累计-⭐%2034k+-2b7489?style=flat-square)](https://github.com/jnMetaCode?tab=repositories&sort=stargazers)
 [![followers](https://img.shields.io/github/followers/jnMetaCode?style=flat-square&label=关注&color=2b7489)](https://github.com/jnMetaCode?tab=followers)
 
 ---
