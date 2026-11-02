@@ -16,7 +16,6 @@
 |------|------------|---|
 | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | **277 个即插即用的 AI 专家**：产品 / 架构 / 营销 / 小红书 / 抖音运营，拿来就用 | [![](https://img.shields.io/github/stars/jnMetaCode/agency-agents-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/agency-agents-zh) |
 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 教 AI **怎么把活干好**：TDD、调试、代码审查等 20 个工作方法，装上就生效 | [![](https://img.shields.io/github/stars/jnMetaCode/superpowers-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/superpowers-zh) |
-| [impeccable-zh](https://github.com/jnMetaCode/impeccable-zh) | **Impeccable 中文增强版**：中文排版、UX 文案与国内 UI 框架指导，提供简繁体内容与设计工作流；当前 Alpha，从源码安装 | [![Star 数量](https://img.shields.io/github/stars/jnMetaCode/impeccable-zh?style=flat&label=⭐)](https://github.com/jnMetaCode/impeccable-zh/stargazers) |
 | [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | **一句话 → 多个 AI 专家自动接力**，几分钟出完整方案（15 种大模型，11 种免 key） | [![](https://img.shields.io/github/stars/jnMetaCode/agency-orchestrator?style=flat&label=⭐)](https://github.com/jnMetaCode/agency-orchestrator) |
 | [shellward](https://github.com/jnMetaCode/shellward) | AI 项目**合规体检**：数据出境 / 硬编码密钥 / 个人信息暴露，一行命令扫出来 | [![](https://img.shields.io/github/stars/jnMetaCode/shellward?style=flat&label=⭐)](https://github.com/jnMetaCode/shellward) |
 
